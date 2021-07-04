@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Switch, Route, Link, NavLink, Rediret } from "react-router-dom";
+import Nav from './components/nav/Nav';
+import Header from './components/header/Header';
 import reportWebVitals from './reportWebVitals';
+import Error404 from './components/error404/Error404';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
+    
     <App />
+   
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	border:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../images/marco.jpg);
+    font-family: sans-serif;
+}
+.container{
+	width: 1000px;
+	max-width: 100px; 
+	margin: 0 auto;
+}
+.tit{
+	text-align: center;
+	color: white;
+	text-shadow: 5px 5px 5px #AE6BF2;
+}
+
+.card{
+	justify-content: center;
+	display: flex;
+	margin: 25px;
+	box-shadow: 2px 2px 5px #05F2F2; 
+}
+.card-body{
+	display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.card-title{
+	text-align: center;
+}
+
+img{
+display:block;
+margin:auto;
+}
+
+
+.bnt{
+display:block;
+margin:auto;
+}
+
+.modal body{
+	background-color: red;
+}
+.modal-header {
+    background-color: black;
+    border-bottom: 1px solid aqua;
+}
+
+.modal-title {
+    color: white;
+    text-shadow: 5px 5px 5px #AE6BF2;
+}
+
+.modal-title h5{
+	text-align: center;
+}
+
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-center;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(.3rem - 1px);
+    border-bottom-left-radius: calc(.3rem - 1px);
+}
+.btn-secondary {
+    color: #fff;
+    background-color: black;
+    border-color: #05F2F2;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:#AE6BF2 ;
+    border-color:#fff ;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color:#AE6BF2 ;
+    border-color:#fff ;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border-color: #05F2F2;
+}

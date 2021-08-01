@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title>ejercicio1</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+	 <div class="ejercicios col-md-2">
+    <img src="images/js.png" class="img-fluid">
+
+      <div class="d-grid gap-2">
+        
+        <a href="ejercicio1.html" role="button" class="btn btn-primary">ejercicio 1</a>
+        <a href="ejercicio2.html" role="button" class="btn2 btn-primary2">ejercicio 2</a>
+        <a href="ejercicio3.html" role="button" class="btn btn-primary">ejercicio 3</a>
+        <a href="ejercicio4.html" role="button" class="btn2 btn-primary2">ejercicio 4</a>
+        <a href="ejercicio5.html" role="button" class="btn btn-primary">ejercicio 5</a>
+      </div>
+	  </div>
+
+	  <div class="resultado col-md-10">
+    <div class="min-vh-100"> 
+		  <h1 class="ti">Funciones de Texto</h1>
+		    <div class="card" style="width: 18rem; margin: 100px auto;">
+          <div class="card-body">
+   
+         <form class="caja" id="frmvalidacion" novalidate>
+  	     <!--<div class="mb-3">
+            <label for="nombre" class="form-label">Ingrese el nombre</label>
+            <input type="text" class="form-control" id="nombre">
+         </div>-->
+         <div  class="mb-3" id="campoNombre">
+         <label for="nombre" class="form-label">Ingrese el nombre</label>
+         <br>
+         <input type="text" class="form-control" name="nombre" id="nombre" class="">
+         <div class="feedback"></div>
+         </div>
+
+         <div class="mb-3">
+            <label for="apellido" class="form-label">Ingrese el apellido</label>
+             <input type="text" class="form-control" id="apellido">
+         </div>
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary" type="submit" onclick="calcularLongitud()">Longitud</button>
+
+          <button class="btn btn-primary" type="submit" onclick="convertirMayus()">Mayúsculas</button>
+
+          <button class="btn btn-primary" type="submit" onclick="convertirMinus()">Minúsculas</button>
+
+          <button class="btn btn-primary" type="submit" onclick="extraerInicial()">Extraer</button>
+
+         <button class="btn btn-primary" type="submit" onclick="concatenar()">Unir</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+<script type=" text/javascript" src="js/ejercicio1.js"></script>
+</body>
+</html>

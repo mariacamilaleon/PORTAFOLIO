@@ -1,0 +1,632 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background-image: url(../imagenes/background.jpg);
+    font-family: sans-serif;
+}
+header{
+	max-width: 1000px;
+	width:100%;
+	background-color: rgba(25,25,25);
+	max-height: 85px;
+	height: 100%;
+	margin: auto;
+}
+.logo{
+	padding: 20px;
+}
+nav{
+	clear: both;
+    max-width: 1000px;
+	width:100%;
+	background-color: rgba(17,59,53);
+	max-height: 45px;
+	height: 100%;
+	margin: auto;
+
+}
+.menu{
+	width: 100%;
+}
+
+.menu ul{
+	list-style: none;
+}
+.menu >li{
+	display: inline-block;
+	max-width: 130px;
+	width: 100%;
+	text-align: center;
+	line-height: 45px;
+	border-right: 1px solid #FFFFFF;
+	font-size: 14px;
+}
+.menu li >a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+nav .menu .icono{
+	margin-right: 5px;
+}
+
+.submenu{
+	background-color: rgba(17, 59, 53);
+	color: white;
+	max-width: 150px;
+	width: 100%;
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+}
+.submenu li{
+	text-align: left;
+}
+.submenu li a{
+	display: block;
+	line-height: 45px;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+.submenu li:hover{
+	line-height: 45px;
+	background-color: rgba(234, 234, 234);
+	color: rgba(17, 59, 53);
+}
+.submenu li a:hover{
+	color: rgba(17, 59, 53);
+	background-color: white; 
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 2s;
+}
+#banner{
+	max-width: 1000px;
+	width:100%;
+	background-color: #FFFFFF;
+	max-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+#principal{
+	max-width: 1000px;
+	width:100%;
+	background-color: rgba(255,255,255);
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+.cajap{
+	width: 33%;
+	float: left;
+	min-height: 300px;
+	height: 100px;
+	text-align:center;
+	
+}
+.cajap h1{
+	margin: 20px;
+	text-align: left;
+	font-weight: 100;
+	font-size: 25px;
+}
+.cajap p{
+	text-align: justify;
+	margin: 20px;
+}
+.cajap img{
+	margin bottom: 20px;
+}
+#bottom{
+	clear: both;
+	max-width: 1000px;
+	width:100%;
+	background-color: rgba(18,18,18);
+	min-height: 195px;
+	height: 100%;
+	margin: auto;
+	color: #FFFFFF;
+}
+.cajab{
+	width: 25%;
+	min-height: 200px;
+	float: left;
+
+}
+.cajab h1{
+	text-align: center;
+	margin: 20px;
+	font-weight: 100;
+}
+.cajab ul{
+	margin: 20px 40px ;
+}
+.cajab ul li{
+	text-align: left;
+	font-size:15px;
+	list-style-image: url(../imagenes/list.png);
+	list-style-position: inside;
+}
+
+.cajab img{
+display: block;
+margin: auto;
+border: 4px solid #FFFFFF;
+}
+.cajab a{
+	text-decoration: none;
+	color: white;
+}
+.redes{
+	text-align: center;	
+}
+.redes li{
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	border-radius: 100%;
+}
+.redes li:first-child{
+	background-image: url(../imagenes/facebook.jpg);
+	background-size: cover;
+}
+.redes li:nth-child(2){
+	background-image: url(../imagenes/iconoGoogle.jpg);
+	background-size: cover;
+}
+.redes li:nth-child(3){
+	background-image: url(../imagenes/iconoPinterest.jpg);
+	background-size: cover;
+}
+.redes li:last-child{
+	background-image: url(../imagenes/iconoTwitter.jpg);
+	background-size: cover;
+}
+.redes li a{
+	padding: 15px;
+
+}
+#quienessomos{
+	max-width: 1000px;
+	width:100%;
+	background-color: #EAEAEA;
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+
+#quienessomos h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left: 30px;
+	font-weight: bold;
+	border-left: rgba(17, 59, 53) 5px solid;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+
+#quienessomos hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+#quienessomos img{
+	float: right;
+	margin: 10px 30px 10px 30px;
+	box-shadow: 2px 2px 12px black;
+	border-radius: 15%; 
+}
+#quienessomos p{
+	margin: 30px;
+	text-align: justify;
+}
+/*ESTILOS SECTION COLABORADORES*/
+#colaboradores{
+	max-width: 1000px;
+	width: 100%;
+	margin: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#colaboradores h1{
+font-weight:100;
+padding-top: 10px;
+padding-left: 30px; 
+text-align: left;
+font-weight: bold;
+border-left: 5px solid rgba(17, 59, 53);
+border-left: 5px solid rgba(17, 59, 53);
+margin-left: 15px;
+}
+
+#colaboradores hr{
+margin: 10px auto;
+width: 95%;
+border:1px solid #C6C6C6;
+}
+
+.integrante{
+	margin-top:20px;
+	width: 33%;
+	display: inline-block;
+}
+.integrante img{
+	width: 30%;
+	border-radius: 100%;
+}
+.datosint{
+	margin: 20px;
+}
+.datosint p{
+	text-align: left;
+}
+
+.inticono{
+	padding: 10px;
+	background:rgba(17,59,53);
+	border-radius: 100%;
+	margin: 5px;
+	color: #FFFFFF;
+}
+
+footer{
+	max-width: 1000px;
+	width:100%;
+	background-color: rgba(0,0,0);
+	max-height: 50px;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+	color: white;
+	padding: 10px 0px;
+}
+
+.button{
+	float: right;
+	background: white;
+	color:rgba(17,59,53);
+	display: inline-block;
+	font-size: 16px;
+	margin: auto;
+	padding: 10px 0px;
+	text-align: center;
+	width: 120px;
+	text-decoration: none;
+	box-shadow: 00px 3px 0px black; 
+	border-radius: 10px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.button:hover{
+	background-color: rgba(17, 59, 53);
+	color: white;
+}
+
+.button2{
+	float: right;
+	background:rgba(17,59,53);
+	color:white;
+	display: inline-block;
+	font-size: 16px;
+	margin: auto;
+	padding: 10px 0px;
+	text-align: center;
+	width: 120px;
+	text-decoration: none;
+	box-shadow: 00px 3px 0px black; 
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.button2:hover{
+	background-color: white;
+	color: rgba(17, 59, 53);
+}
+#servicios{
+	max-width: 1000px;
+	width:100%;
+	background-color: #EAEAEA;
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+
+#servicios h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight: bold;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+#servicios h3{
+	font-weight:100;
+	padding-top:10px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+#servicios hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+
+#servicios img{
+	float: right;
+	margin: 10px 30px 10px 30px;
+	box-shadow: 2px 2px 12px black;
+	border-radius: 15%; 
+}
+#servicios p{
+	margin: 30px;
+	text-align: justify;
+}
+
+#servicios1{
+	max-width: 1000px;
+	width:100%;
+	background-color: white;
+	min-height: 250px;
+	height: 100%;
+	margin: auto;
+}
+#servicios1 h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight: bold;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+#servicios1 h3{
+	font-weight:100;
+	padding-top:10px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+#servicios1 hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+
+#servicios1 img{
+	float: left;
+	margin: 20px 30px 10px 30px;
+	box-shadow: 2px 2px 12px black;
+	border-radius: 15%; 
+}
+#servicios1 p{
+	margin: 30px;
+	text-align: justify;
+}
+#servicios3{
+	max-width: 1000px;
+	width:100%;
+	background-color: #EAEAEA;
+	min-height: 250px;
+	height: 100%;
+	margin: auto;
+}
+
+#servicios3 h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight: bold;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+#servicios3 h3{
+	font-weight:100;
+	padding-top:10px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+#servicios3 hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+
+#servicios3 img{
+	float: right;
+	margin: 20px 30px 10px 30px;
+	box-shadow: 2px 2px 12px black;
+	border-radius: 15%; 
+}
+#servicios3 p{
+	margin: 30px;
+	text-align: justify;
+}
+
+
+#productos{
+	max-width: 1000px;
+	width:100%;
+	background-color: white;
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+
+#productos h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight: bold;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+
+#productos hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+#productos .flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: row wrap;
+  justify-content: center;
+}
+
+#productos .caja{
+	width:20%;
+	min-height: 400px;
+	background:white;
+	margin:10px;
+	box-shadow:2px 2px 5px black; 
+	display: inline-block;
+}
+
+#productos .caja h3{
+	background: rgba(17,59,53);
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+#productos .caja h4{
+	padding: 10px;
+}
+
+#productos .caja p{
+	text-align: justify;
+	padding: 10px;
+}
+.boton{
+	float:left;
+	background:rgba(17,59,53);
+	color:white;
+	display: inline-block;
+	font-size: 12px;
+	margin: 10px;
+	padding: 5px 0px;
+	text-align: center;
+	width: 120px;
+	text-decoration: none;
+	box-shadow: 00px 3px 0px black; 
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.boton:hover{
+	background-color: white;
+	color: rgba(17, 59, 53);
+}
+
+#contacto{
+	max-width: 1000px;
+	width:100%;
+	background-color: #EAEAEA;
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+	display: flex;
+}
+#contacto .mapatex{
+	width:100%;
+	min-height: 400px;
+	margin:50px 50px 20px 20px;	
+}
+
+.maps{
+	width: 350px;
+	height: 350Px;
+	border-radius: 100%;
+	border: 4px solid white;
+	margin: 50px;
+}
+#contacto h3{
+	text-align: left;
+	color: rgb(17, 59, 53);
+}
+
+.fa-map-marker-alt:before {
+    content: "\f3c5";
+    margin: 5px;
+}
+.fa-phone-alt:before {
+    content: "\f879";
+    margin: 5px;
+}
+.fa-envelope:before {
+    content: "\f0e0";
+    margin: 5px;
+}
+
+#formulario{
+	max-width: 1000px;
+	width:100%;
+	background-color: white;
+	min-height: 300px;
+	height: 100%;
+	margin: auto;
+}
+
+#formulario label{
+	width: 40%;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#formulario input[type=text], input[type=number], input[type=email],select,textarea{
+	width: 55%;
+	vertical-align: middle;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	border:1px solid #000000;
+	margin:8px 0;
+	resize: none;
+}
+#formulario input[type=text] :focus, input[type=number]:focus, input[type=email];focus,select:focus,textarea:focus{
+	box-shadow: 3px 3px 5px #000000;
+	outline: none;
+}
+
+#formulario input[type=submit]{
+	width: 140px;
+	margin: 10px;
+	padding: 10px;
+	background:rgba(17,59,53);
+    border-radius: 5px;
+    box-shadow: 00px 3px 0px black; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#formulario input[type=submit]:hover{
+    background-color: white;
+	color: rgba(17, 59, 53);
+}
+
+#formulario h1{
+	font-weight:100;
+	padding-top:10px;
+	padding-left:5px;
+	font-weight: bold;
+	border-left: 5px solid rgba(17, 59, 53);
+	margin-left: 15px;
+}
+
+#formulario hr{
+	margin: 10px auto;
+	width: 95%;
+	border:1px solid #C6C6C6;
+}
+
+#inf{
+	margin:0 20px;
+}

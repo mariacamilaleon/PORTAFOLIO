@@ -1,0 +1,132 @@
+*{
+	margin:0; 
+	border:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+header{
+	padding:10px;
+}
+.logo img{
+	max-width: 250px;
+}
+
+.btn-info {
+  color: #000;
+  background-color: #00B2B1;
+  border-color: #00B2B1;
+  font-weight: bold;
+}
+.btn-info:hover {
+  color: #000;
+  background-color: #FFFFFF;
+  border-color: #00B2B1;
+}
+
+.btn-light {
+  color: #752995;
+  background-color: #FFFFFF;
+  border-color: #752995;
+  font-weight: bold;
+}
+.btn-light:hover {
+  color: #000;
+  background-color: #752995;
+  border-color: #752995;
+}
+
+#promo{
+	margin: 20px;
+}
+.seccion1 {
+	padding: 30px;
+	background-image: url('../images/fondo.jpg');
+	box-shadow: 0px 2px 3px black;
+}
+.seccion1 h1{
+	text-align: left;
+}
+.seccion2 {
+	padding: 15px;
+	text-align: center;
+	background-color: #752995;
+	box-shadow: 0px 2px 3px black;
+}
+
+.seccion2 h3{
+	color: white;
+	text-shadow: 2px 2px 3px black;
+}
+.seccion2 img{
+	border-radius: 100%;
+	padding: 5px;
+	background: white;
+}
+
+#tarj{
+	margin: 20px;
+}
+.tarjeta1{
+  border:none;
+}
+.tarjeta2{
+  border:none;
+}
+.tarjeta3{
+   border:none;
+}
+.ima{
+  width: 200px;
+  display:block;
+  margin:auto;
+}
+h1{
+	text-align: center;
+	color: #752995;
+	text-shadow: 2px 2px 3px black;
+	font-weight: bold;
+}
+hr{
+  background-color:#0BFAE1; 
+  height: 10px;
+  margin-left: 42%;
+  width: 15%;
+  border: 3px solid #0BFAE1;  
+}
+
+ h5{
+	text-align: center;
+	color: #752995;
+}
+
+#contacto{
+	margin: 20px;
+  background-image: url('../images/fondo.jpg');
+  display:block;
+  margin:auto;
+}
+
+.sedes{
+  padding: 30px;
+  background-color: rgba(75,29,95,0.5);
+}
+
+#contacto .card{
+  background-color: transparent;
+  border:none;
+}
+
+.sedes i{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.tit{
+  margin-bottom: 0.5rem;
+  color:white;
+  text-align: center;
+}
+
+

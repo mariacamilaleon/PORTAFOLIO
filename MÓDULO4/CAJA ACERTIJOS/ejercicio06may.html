@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8">
+	<title>Ejercicio de DOM y eventos</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos06.css">
+</head>
+<body>
+<main>
+	<div class="fila">
+		<div class="caja">
+			<h1>¿Cómo se llama la profe?</h1>
+			<p>Selecciona correctamente el nombre y apellido de una profe</p>
+			<form>
+				<select id="nombre">
+					<option value="0">Seleccione un nombre</option>
+					<option value="1">Jennifer</option>
+					<option value="2">Tatiana</option>
+					<option value="3">Juliana</option>
+				</select>
+				<select id="apellido">
+					<option value="0">Seleccione un apellido</option>
+					<option value="1">Cabrera</option>
+					<option value="2">Fajardo</option>
+					<option value="3">Correal</option>
+				</select>
+				<div>
+				<input type="image"  src="images/signo.png" id="boton">
+				</div>
+				
+			</form>
+			<div id="correcto">	
+			</div>
+		</div>
+
+		<!--INICIO DE ACERTIJO-->
+
+		<div class="caja">
+			<h1>Acertijo matemático</h1>
+			<p>Cuatro gatos en un cuarto, cada gato en un rincón, cada gato ve tres gatos, adivina cuántos gatos son</p>
+			<h3>Selecciona tu respuesta</h3>
+			
+				<input type="image"  src="images/3.png" id="num3">
+				<input type="image"  src="images/4.png" id="num4">
+				<input type="image"  src="images/5.png" id="num5">
+		<div id="acertijo">	
+		</div>		
+		</div>
+		
+	</div>
+
+    <div class="fila">
+		<div class="caja">
+			<h1>Completa el refrán</h1>
+			<p>"Camaron que se duerme se lo lleva la"</p>
+			
+            <input type="radio" value="1" name="palabra" id="palabra">corriente
+            <input type="radio" value="2" name="palabra" id="palabra">marea
+            <input type="radio" value="3" name="palabra" id="palabra">ola
+
+			<div>
+				<input type="image"  src="images/signo.png" id="boton1">
+			</div>
+		   <div id="res">	
+		   </div>		
+		   </div>
+		<div class="caja">
+			<h1>Adivinaza</h1>
+			<p>"Un cántaro lleno, ¿de qué pesa menos?"</p>
+			<div id="obj1">
+			<input type="image"  src="images/pista.jpg"  id="pi">
+			<input type="image"  src="images/solucion.jpg"  id="so">	
+			</div>
+			
+
+			<div id="resp">	
+		   </div>
+		</div>
+	</div>
+</main>
+
+<script type="text/javascript"  src="js/ejer06.js"></script>
+</body>
+</html>
